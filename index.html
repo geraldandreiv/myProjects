@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEWS</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
     <style>
-
         .container {
             display: flex;
             gap: 50px;
-            vertical-align: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
         }
+
         .marcosNews {
-            
+
             width: 30%;
             text-align: justify;
             font-family: "Roboto Mono";
             font-size: 1em;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            
+            padding: 20px;
+            border-radius: 10px;
 
-            
         }
+
+        .marcosNews:hover {
+            background-color: gray;
+        }
+        .oil_hikes:hover {
+            background-color: gray;
+        }
+        .fighterplane:hover {
+            background-color: gray;
+        }
+
         .oil_hikes {
             width: 30%;
             text-align: justify;
             font-family: "Roboto Mono";
             font-size: 1em;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            border-radius: 10px;
         }
 
         .fighterplane {
@@ -37,6 +54,8 @@
             font-family: "Roboto Mono";
             font-size: 1em;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            border-radius: 10px;
         }
 
         body {
@@ -47,105 +66,247 @@
         header {
             background-color: black;
             margin: 0;
-            padding: 5px;
-            
+            padding: 10px;
+
         }
-        header > h1 {
-            
-            color: aliceblue    ;
+
+        header>h1 {
+
+            color: aliceblue;
             font-family: "Roboto Mono";
+            position: relative;
+            left: 10px;
+
         }
+
+        .img1 {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .img2 {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .img3 {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 15px;
+        }
+
+        ul {
+            display: inline-block;
+
+
+        }
+
+        nav {
+            max-height: 100px;
+            height: 100%;
+            text-align: center;
+            background-color: gray;
+            padding: 0;
+        }
+
+        #links {
+            position: relative;
+            float: left;
+            text-decoration: none;
+            list-style-type: none;
+            margin: 10px;
+            font-family: "Roboto Mono";
+            color: white;
+            font-size: 20px;
+            
+        }
+
+        #links::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            background-color: white;
+            left: 0;
+            bottom: 0;
+            transition: 0.25s;
+            transition-timing-function: ease-in-out;
+            transform: scaleX(0);
+        }
+
+        #links:hover::after {
+            transform: scaleX(1);
+        }
+
+        .news1 {
+            text-decoration: none;
+            color: black;
+        }
+        .news2 {
+            text-decoration: none;
+            color: black;
+        }
+        .news3 {
+            text-decoration: none;
+            color: black;
+        }
+      
+
     </style>
 </head>
+
 <body>
     <header>
         <h1>News Today</h1>
     </header>
-    
+    <div class="navBar">
+        <nav>
+            <ul>
+                <a  href="" id="links">
+                    <li>Home</li>
+                </a>
+                <a href="" id="links">
+                    <li>About us</li>
+                </a>
+                <a href="" id="links">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
-        <div class="marcosNews">
-            <h2>Pres Marcos Visit Tagum City</h2>
-            <img src="img1.jpg" alt="Picture of Pres Marcos Visiting Tagum City" height="300px" width="300px" style="float: left; margin-right: 10px; border-radius: 5px;">
-            <p>The Trabaho sa Bagong Pilipinas is not just a jobs fair, but also brings closer to communities some government agencies that issue necessary documents required by employers, Marcos Jr. said in his speech delivered at the New City Hall in Tagum City.
 
-                “Ito ay bilang pagtupad sa aming mandato at sa aming pangako na itaas ang antas ng pamumuhay ng bawat pamilyang Pilipino, lalong-lalo na sa ating mga benepisyaryo ng 4Ps at saka ng TUPAD,” he said, referring to the government's two largest aid programs. 
-               
-               “Patuloy din naming pinapalakas ang paghahatid ng mga serbisyo para sa inyong lahat upang matulungan kayo na makahanap ng trabaho, at magsilbing hakbang tungo sa pagkamit ng inyong mga pangarap sa buhay at para sa inyong mga pamilya,” he said. 
-               
-               ADVERTISEMENT
-               
-               
-               This job fair also offers a “matching” service to ensure that attendees would find jobs that befit their skillsets, the Chief Executive said.
-               
-                “Ito ay ang paghahanap ng trabaho na akma sa inyong kasanayan upang matiyak na ang inyong hanapbuhay ay tumutugma sa inyong pagkakaalam,” he said. 
-               
-               “Sa ganitong paraan, masisiguro natin na ang inyong talento, galing, at husay ay nabibigyan ng halaga,” he added.
-               
-                In January 2025 alone, the government’s “Trabaho sa Bagong Pilipinas” has paved the way for some 1,000 Filipino job seekers to be hired on the spot, while 8,000 others were able to submit their applications through the job fair, Marcos Jr. said.
-               
-                In 2024, the government has mounted 1,900 job fairs across the Philippines, which has resulted in the instant hiring of over 66,000 applicants.
-               
-                “Patunay po ito napakagaling talaga ng Pilipino, lahat ng ating mga kababayan, kailangan lang ng pagkakataon katulad ng job fair na ito,” he said.
-               
-                “Kaya naman gagawin ko po lahat para itong programa na ito ay magkalat sa buong bansa… Kakambal nito ay ang aking panawagan na sana po ay mapalawig pa ninyo ang mga pagkakataon at oportunidad na nasa inyong harapan,” he said. 
-               
-               The President ended his speech by urging Filipinos to remain disciplined, hardworking, respectful and caring workers.
-               
-                “Ang bawat isa sa atin ay may kakayahang nakakapag-ambag sa ating mga komunidad at sa ating bansa,” he said. 
-               
-               “Basta po tayo ay magsama-sama, basta po tayo ay nagtutulungan, basta’t tayo ay kapit-bisig na humaharap sa mga problema na dumadating sa atin,  at sabay-sabay natin binibigyan ng solusyon at sabay-sabay natin – sabay-sabay tayong patungo sa ating minamahal na Pilipinas na Bagong Pilipinas,” he said. 
-               
-               Aside from attending the jobs fair, the President traveled to Davao del Norte for the campaign of his “Alyansa Para Sa Bagong Pilipinas” senatorial slate for the 2025 midterm elections.</p>
-        </div>
-
-        <div class="oil_hikes">
-            <h2>Oil Hikes</h2>
-            <img src="oil-gas-price-hike-filephoto-091922-3.png" alt="Oil Price" height="300px" width="300px" style="float: left; margin-right: 10px; border-radius: 5px;" >
-
-            <p>Fuel prices are set to increase after Valentine’s Day amid an increase in global oil prices, the Department of Energy said Friday. 
-
-                Assistant Director Rodela Romero of the DOE Oil Industry Management Bureau said price increases may be implemented on February 18, based on 4 days of trading of Mean of Platts Singapore and relevant oil markets.
-                
-                Based on the average prices from Monday to Thursday this week, prices of all fuel products are heading north: 
-                
-                Gasoline    P0.49/L⬆️ 
+        
+            <div class="marcosNews">
+                <a href="https://www.abs-cbn.com/news/nation/2025/2/15/marcos-jr-visits-jobs-fair-before-campaigning-in-davao-del-norte-2019" class="news1"><h2>Pres Marcos Visit Tagum City</h2></a>
+                <img src="img1.jpg" alt="Picture of Pres Marcos Visiting Tagum City" class="img1">
     
-                Diesel        P0.34/L⬆️ 
-                
-                Kerosene   P0.13/L⬆️
-                
-                Jetti Petroleum President Leo Bellas said there is no chance that prices in the Mean of Platts Singapore will go down today, so it is already safe to assume that there will be another oil price hike next week.
-                
-                Bellas said the main reason for the increase is uncertainty in supply in Asia due to US sanctions on Iran and Russia.
-                
-                The increase, Bellas said is actually tempered by the tariff issues in the US and the possible peace accord between Russia and Ukraine</p>
+                <p>The Trabaho sa Bagong Pilipinas is not just a jobs fair, but also brings closer to communities some
+                    government agencies that issue necessary documents required by employers, Marcos Jr. said in his speech
+                    delivered at the New City Hall in Tagum City.
+    
+                    “Ito ay bilang pagtupad sa aming mandato at sa aming pangako na itaas ang antas ng pamumuhay ng bawat
+                    pamilyang Pilipino, lalong-lalo na sa ating mga benepisyaryo ng 4Ps at saka ng TUPAD,” he said,
+                    referring to the government's two largest aid programs.
+    
+                    “Patuloy din naming pinapalakas ang paghahatid ng mga serbisyo para sa inyong lahat upang matulungan
+                    kayo na makahanap ng trabaho, at magsilbing hakbang tungo sa pagkamit ng inyong mga pangarap sa buhay at
+                    para sa inyong mga pamilya,” he said.
+    
+                    ADVERTISEMENT
+    
+    
+                    This job fair also offers a “matching” service to ensure that attendees would find jobs that befit their
+                    skillsets, the Chief Executive said.
+    
+                    “Ito ay ang paghahanap ng trabaho na akma sa inyong kasanayan upang matiyak na ang inyong hanapbuhay ay
+                    tumutugma sa inyong pagkakaalam,” he said.
+    
+                    “Sa ganitong paraan, masisiguro natin na ang inyong talento, galing, at husay ay nabibigyan ng halaga,”
+                    he added.
+    
+                    In January 2025 alone, the government’s “Trabaho sa Bagong Pilipinas” has paved the way for some 1,000
+                    Filipino job seekers to be hired on the spot, while 8,000 others were able to submit their applications
+                    through the job fair, Marcos Jr. said.
+    
+                    In 2024, the government has mounted 1,900 job fairs across the Philippines, which has resulted in the
+                    instant hiring of over 66,000 applicants.
+    
+                    “Patunay po ito napakagaling talaga ng Pilipino, lahat ng ating mga kababayan, kailangan lang ng
+                    pagkakataon katulad ng job fair na ito,” he said.
+    
+                    “Kaya naman gagawin ko po lahat para itong programa na ito ay magkalat sa buong bansa… Kakambal nito ay
+                    ang aking panawagan na sana po ay mapalawig pa ninyo ang mga pagkakataon at oportunidad na nasa inyong
+                    harapan,” he said.
+    
+                    The President ended his speech by urging Filipinos to remain disciplined, hardworking, respectful and
+                    caring workers.
+    
+                    “Ang bawat isa sa atin ay may kakayahang nakakapag-ambag sa ating mga komunidad at sa ating bansa,” he
+                    said.
+    
+                    “Basta po tayo ay magsama-sama, basta po tayo ay nagtutulungan, basta’t tayo ay kapit-bisig na humaharap
+                    sa mga problema na dumadating sa atin, at sabay-sabay natin binibigyan ng solusyon at sabay-sabay natin
+                    – sabay-sabay tayong patungo sa ating minamahal na Pilipinas na Bagong Pilipinas,” he said.
+    
+                    Aside from attending the jobs fair, the President traveled to Davao del Norte for the campaign of his
+                    “Alyansa Para Sa Bagong Pilipinas” senatorial slate for the 2025 midterm elections.</p>
+            </div>
+            
+    
+        
+        <div class="oil_hikes">
+            <a href="https://www.abs-cbn.com/news/business/2025/1/11/second-oil-price-hike-in-2025-to-greet-motorists-next-week-1208" class="news2"><h2>Oil Hikes</h2></a>
+            <img src="oil-gas-price-hike-filephoto-091922-3.png" alt="Oil Price" class="img2">
+
+            <p>Fuel prices are set to increase after Valentine’s Day amid an increase in global oil prices, the
+                Department of Energy said Friday.
+
+                Assistant Director Rodela Romero of the DOE Oil Industry Management Bureau said price increases may be
+                implemented on February 18, based on 4 days of trading of Mean of Platts Singapore and relevant oil
+                markets.
+
+                Based on the average prices from Monday to Thursday this week, prices of all fuel products are heading
+                north:
+
+                Gasoline P0.49/L⬆️
+
+                Diesel P0.34/L⬆️
+
+                Kerosene P0.13/L⬆️
+
+                Jetti Petroleum President Leo Bellas said there is no chance that prices in the Mean of Platts Singapore
+                will go down today, so it is already safe to assume that there will be another oil price hike next week.
+
+                Bellas said the main reason for the increase is uncertainty in supply in Asia due to US sanctions on
+                Iran and Russia.
+
+                The increase, Bellas said is actually tempered by the tariff issues in the US and the possible peace
+                accord between Russia and Ukraine</p>
         </div>
-
         <div class="fighterplane">
-            <h2>Australia Fighter plane vs China Plane</h2>
-            <img src="plane.jpg.jpeg" alt="Plane" height=" 300px" width="300px" style="float: left; margin-right: 10px; border-radius: 5px;" >
+            <a href="http://news.usni.org/2025/02/13/chinese-fighter-harrasses-australian-surviellance-aircraft-over-south-china-sea-officials-says" class="news3"><h2>Australia Fighter plane vs China Plane</h2></a>
+            <img src="plane.jpg.jpeg" alt="Plane" class="img3">
             <p>
-                Australia and China traded blame over an incident above the disputed Paracel archipelago in the South China Sea, adding to an already volatile situation in the region.
+                Australia and China traded blame over an incident above the disputed Paracel archipelago in the South
+                China Sea, adding to an already volatile situation in the region.
 
-A Royal Australian Air Force P-8A Poseidon maritime patrol aircraft experienced an “unsafe and unprofessional interaction” with a Chinese J-16 fighter aircraft on Tuesday, the Australian Defence Force, or defense department, said in a statement.
+                A Royal Australian Air Force P-8A Poseidon maritime patrol aircraft experienced an “unsafe and
+                unprofessional interaction” with a Chinese J-16 fighter aircraft on Tuesday, the Australian Defence
+                Force, or defense department, said in a statement.
 
-The Australian jet was conducting routine surveillance in the South China Sea at the time, it said.
+                The Australian jet was conducting routine surveillance in the South China Sea at the time, it said.
 
-Australia said the Chinese jet had released flares close to the Australian jet.
+                Australia said the Chinese jet had released flares close to the Australian jet.
 
-“This was an unsafe and unprofessional maneuver that posed a risk to the aircraft and personnel,” the Australian department said.
+                “This was an unsafe and unprofessional maneuver that posed a risk to the aircraft and personnel,” the
+                Australian department said.
 
-No crew member was injured in the incident and the jet was not damaged but Australia said it “expects all countries, including China, to operate their militaries in a safe and professional manner.”
+                No crew member was injured in the incident and the jet was not damaged but Australia said it “expects
+                all countries, including China, to operate their militaries in a safe and professional manner.”
 
-Australian Defense Minister Richard Marles told Sky News that the Chinese J-16 was “so close that there’s no way you could have been able to ensure that the flares did not hit the P-8.”
+                Australian Defense Minister Richard Marles told Sky News that the Chinese J-16 was “so close that
+                there’s no way you could have been able to ensure that the flares did not hit the P-8.”
 
-“Had any of those flares hit the P-8, that would have definitely had the potential for significant damage to that aircraft,” he said.
+                “Had any of those flares hit the P-8, that would have definitely had the potential for significant
+                damage to that aircraft,” he said.
 
-Flares, when fired at an aircraft at close proximity, could get into the engine and cause the plane to crash. Yet they are regularly used by the People’s Liberation Army Air Force against foreign assets.
+                Flares, when fired at an aircraft at close proximity, could get into the engine and cause the plane to
+                crash. Yet they are regularly used by the People’s Liberation Army Air Force against foreign assets.
 
-In May 2024, Australia protested to China after one of its fighter jets intercepted and dropped flares close to an Australian helicopter in international waters in the Yellow Sea.
+                In May 2024, Australia protested to China after one of its fighter jets intercepted and dropped flares
+                close to an Australian helicopter in international waters in the Yellow Sea.
 
-In late October 2023, a Chinese warplane also used flares against a Canadian shipborne maritime helicopter over the South China Sea.
+                In late October 2023, a Chinese warplane also used flares against a Canadian shipborne maritime
+                helicopter over the South China Sea.
             </p>
         </div>
     </div>
